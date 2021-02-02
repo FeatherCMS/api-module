@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/swift-server/async-http-client.git",
         "state": {
           "branch": null,
-          "revision": "0a8dddbe15cd72f7bb5e47951fb7c1eb0836dfc2",
-          "version": "1.2.2"
+          "revision": "a72c5adce3986ff6b5092ae0464a8f2675087860",
+          "version": "1.2.3"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/vapor/console-kit.git",
         "state": {
           "branch": null,
-          "revision": "7454e839bc5ae0e75c3946d2613e442fd342fe6b",
-          "version": "4.2.4"
+          "revision": "08f36a30e0893e6a52fefbf1c2db4a6bc1288ba2",
+          "version": "4.2.5"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/FeatherCMS/feather-core",
         "state": {
           "branch": null,
-          "revision": "d9bea823f3270ea4ce380c77e3357d03207a7029",
-          "version": "1.0.0-beta.36"
+          "revision": "014ffbed0ef0c82c5b06aef4c54f9f21af99ac2a",
+          "version": "1.0.0-beta.39.2"
         }
       },
       {
@@ -60,26 +60,8 @@
         "repositoryURL": "https://github.com/vapor/fluent-kit.git",
         "state": {
           "branch": null,
-          "revision": "86ebecdb98981b7a242746209b4335770bf0bd11",
-          "version": "1.10.2"
-        }
-      },
-      {
-        "package": "jwt",
-        "repositoryURL": "https://github.com/vapor/jwt",
-        "state": {
-          "branch": null,
-          "revision": "46eddb526fa70fd9d765a3bdffac73b2be487cfc",
-          "version": "4.0.0"
-        }
-      },
-      {
-        "package": "jwt-kit",
-        "repositoryURL": "https://github.com/vapor/jwt-kit.git",
-        "state": {
-          "branch": null,
-          "revision": "6055fe8439769aa3646a3c797d573ce7305849c8",
-          "version": "4.2.0"
+          "revision": "7f1a5fe1effeee258ef0012def798e4bad43303d",
+          "version": "1.10.3"
         }
       },
       {
@@ -125,6 +107,15 @@
           "branch": null,
           "revision": "c32f534f2e401f6ee422abbd0d1b9c0ec4422500",
           "version": "1.2.0-beta.6"
+        }
+      },
+      {
+        "package": "multipart-kit",
+        "repositoryURL": "https://github.com/vapor/multipart-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "73706f1883f2ba950d41f18aec7e3a53766d4a6d",
+          "version": "4.0.0"
         }
       },
       {
@@ -231,8 +222,8 @@
         "repositoryURL": "https://github.com/vapor/vapor",
         "state": {
           "branch": null,
-          "revision": "5148f02e42149f73f6616452062cf96b64afbda6",
-          "version": "4.36.2"
+          "revision": "bb87dcff4cf6d86d386308b4cb1393cefa4891a4",
+          "version": "4.39.2"
         }
       },
       {
