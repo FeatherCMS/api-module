@@ -16,12 +16,12 @@ You can use the Swift Package Manager to integrate this module.
 
 ## Api module hooks
 
-### public-api
+### public-api-routes
 
 You can register your own public API endpoints through this hook (everyone can access them publicly). 
 
 ```swift
-app.hooks.register("public-api", use: (router as! SystemRouter).publicApiRoutesHook)
+app.hooks.register("public-api-routes", use: (router as! SystemRouter).publicApiRoutesHook)
 
 func publicApiRoutesHook(args: HookArguments) {
     let routes = args["routes"] as! RoutesBuilder
@@ -30,12 +30,12 @@ func publicApiRoutesHook(args: HookArguments) {
 }
 ```
 
-### api
+### api-routes
 
 You can register your own private (user authentication required) API endpoints through this hook. 
 
 ```swift
-app.hooks.register("api", use: (router as! SystemRouter).apiRoutesHook)
+app.hooks.register("api-routes", use: (router as! SystemRouter).apiRoutesHook)
 
 func apiRoutesHook(args: HookArguments) {
     let routes = args["routes"] as! RoutesBuilder

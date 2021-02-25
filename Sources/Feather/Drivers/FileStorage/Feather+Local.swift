@@ -12,8 +12,8 @@ extension Feather {
 
     func useLocalFileStorage() {
         use(fileStorage: .local(publicUrl: Application.baseUrl,
-                                publicPath: Application.Paths.public,
-                                workDirectory: "assets"),
+                                publicPath: Application.Directories.public,
+                                workDirectory: Application.Directories.assets),
             fileStorageId: .local)
     }
 }
