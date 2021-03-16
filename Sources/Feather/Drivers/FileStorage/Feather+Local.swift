@@ -12,7 +12,7 @@ extension Feather {
 
     func useLocalFileStorage() {
         use(fileStorage: .local(publicUrl: Application.baseUrl,
-                                publicPath: Application.Directories.public,
+                                publicPath: Application.Paths.public.path,
                                 workDirectory: Application.Directories.assets),
             fileStorageId: .local)
     }
